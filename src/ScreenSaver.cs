@@ -98,7 +98,7 @@ public class SettingsForm : Form
         layoutBehavior.Controls.Add(chkEnableSpeedIncrease, 0, 1);
         layoutBehavior.SetColumnSpan(chkEnableSpeedIncrease, 2);
 
-        layoutBehavior.Controls.Add(new Label() { Text = "Speed Increase Interval (minutes):", AutoSize = true, Anchor = AnchorStyles.Left | AnchorStyles.Top, Padding = new Padding(0, 10, 0, 0) }, 0, 2);
+        layoutBehavior.Controls.Add(new Label() { Text = "Speed Increase Interval (Minutes):", AutoSize = true, Anchor = AnchorStyles.Left | AnchorStyles.Top, Padding = new Padding(0, 10, 0, 0) }, 0, 2);
         numSpeedInterval = new NumericUpDown() { Minimum = 1, Maximum = 1440, Value = 1, Width = 100, Margin = new Padding(3, 10, 3, 3) };
         layoutBehavior.Controls.Add(numSpeedInterval, 1, 2);
 
@@ -115,18 +115,18 @@ public class SettingsForm : Form
         layoutBehavior.Controls.Add(new Label() { Text = "Nebula Interval (Hours:Minutes):", AutoSize = true, Anchor = AnchorStyles.Left | AnchorStyles.Top, Padding = new Padding(0, 10, 0, 0) }, 0, 5);
         nebulaIntervalPanel = new FlowLayoutPanel() { AutoSize = true, FlowDirection = FlowDirection.LeftToRight, Margin = new Padding(3, 10, 3, 3) };
         numNebulaHour = new NumericUpDown() { Minimum = 0, Maximum = 168, Value = 0, Width = 60 };
-        var lblColon = new Label() { Text = ":", AutoSize = true, Padding = new Padding(5, 0, 5, 0) };
+        var lblColon = new Label() { Text = ":", AutoSize = false, Width = 15, Height = 23, TextAlign = ContentAlignment.MiddleCenter, Margin = new Padding(0) };
         numNebulaMinute = new NumericUpDown() { Minimum = 0, Maximum = 59, Value = 30, Width = 60 };
         nebulaIntervalPanel.Controls.Add(numNebulaHour);
         nebulaIntervalPanel.Controls.Add(lblColon);
         nebulaIntervalPanel.Controls.Add(numNebulaMinute);
         layoutBehavior.Controls.Add(nebulaIntervalPanel, 1, 5);
 
-        layoutBehavior.Controls.Add(new Label() { Text = "Nebula Duration (minutes):", AutoSize = true, Anchor = AnchorStyles.Left | AnchorStyles.Top, Padding = new Padding(0, 10, 0, 0) }, 0, 6);
+        layoutBehavior.Controls.Add(new Label() { Text = "Nebula Duration (Minutes):", AutoSize = true, Anchor = AnchorStyles.Left | AnchorStyles.Top, Padding = new Padding(0, 10, 0, 0) }, 0, 6);
         numNebulaDuration = new NumericUpDown() { Minimum = 1, Maximum = 720, Value = 10, Width = 100, Margin = new Padding(3, 10, 3, 3) };
         layoutBehavior.Controls.Add(numNebulaDuration, 1, 6);
         
-        chkResetOnToggle = new CheckBox() { Text = "Reset speeds when toggling modes (R)", AutoSize = true, FlatStyle = FlatStyle.System, Margin = new Padding(3, 10, 3, 3), Checked = true };
+        chkResetOnToggle = new CheckBox() { Text = "Reset Speeds When Toggling Modes (R)", AutoSize = true, FlatStyle = FlatStyle.System, Margin = new Padding(3, 10, 3, 3), Checked = true };
         layoutBehavior.Controls.Add(chkResetOnToggle, 0, 7);
         layoutBehavior.SetColumnSpan(chkResetOnToggle, 2);
 
