@@ -1,6 +1,9 @@
 # Starfield Screensaver
 Relive the magic of the classic Windows 95/98 Starfield simulation! This screensaver faithfully recreates that iconic journey through space, now supercharged for modern displays. Feel the nostalgia as you warp through the galaxy, just like you remember—but better.
 
+
+<img width="1077" height="585" alt="Group 1 (3)" src="https://github.com/user-attachments/assets/a175fd42-7478-4440-b93d-15cb167cf04a" />
+
 A customizable, interactive starfield screensaver for Windows.
 
 ## Controls & Keybinds
