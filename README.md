@@ -26,3 +26,5 @@ Special thanks and credit to the following CodePen projects for inspiration and 
 - [Nebula Visuals](https://codepen.io/Alca/pen/MWyKyqw)
 
 Based on TroisJS: [https://github.com/troisjs/trois](https://github.com/troisjs/trois)
+
+**For Support Join my Discord:** [https://discord.gg/xm3HKSDDJq](https://discord.gg/xm3HKSDDJq)
