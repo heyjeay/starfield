@@ -32,4 +32,6 @@ Based on TroisJS: [https://github.com/troisjs/trois](https://github.com/troisjs/
 
 Feel free to fork this build and port it to other OS if you wish, Don't forget to star!
 
+posted to reddit with username: jeayese
+
 **For Support Join my Discord:** [https://discord.gg/xm3HKSDDJq](https://discord.gg/xm3HKSDDJq)
